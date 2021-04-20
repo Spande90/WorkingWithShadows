@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ShadowOverview.swift
 //  WorkingWithShadows
 //
 //  Created by Siddharth on 20/04/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ShadowOverView: View {
     var body: some View {
         VStack(spacing:20.0){
             Text("SHADOW COLOR")
@@ -58,8 +58,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ShadowOverView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().preferredColorScheme(.dark)
+        ShadowOverView().preferredColorScheme(.dark)
     }
 }
+

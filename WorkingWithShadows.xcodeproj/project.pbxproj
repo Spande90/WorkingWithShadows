@@ -15,6 +15,9 @@
 		3516F1F4262F392400BF72D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3516F1F2262F392400BF72D2 /* LaunchScreen.storyboard */; };
 		3516F1FF262F392400BF72D2 /* WorkingWithShadowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516F1FE262F392400BF72D2 /* WorkingWithShadowsTests.swift */; };
 		3516F20A262F392500BF72D2 /* WorkingWithShadowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516F209262F392500BF72D2 /* WorkingWithShadowsUITests.swift */; };
+		3516F21D262F3EDD00BF72D2 /* ShadowOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516F21C262F3EDD00BF72D2 /* ShadowOverview.swift */; };
+		3516F222262F3F1F00BF72D2 /* ShadowExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516F221262F3F1F00BF72D2 /* ShadowExample1.swift */; };
+		3516F227262F40E200BF72D2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516F226262F40E200BF72D2 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3516F205262F392500BF72D2 /* WorkingWithShadowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithShadowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3516F209262F392500BF72D2 /* WorkingWithShadowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithShadowsUITests.swift; sourceTree = "<group>"; };
 		3516F20B262F392500BF72D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3516F21C262F3EDD00BF72D2 /* ShadowOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowOverview.swift; sourceTree = "<group>"; };
+		3516F221262F3F1F00BF72D2 /* ShadowExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowExample1.swift; sourceTree = "<group>"; };
+		3516F226262F40E200BF72D2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		3516F1E6262F392300BF72D2 /* WorkingWithShadows */ = {
 			isa = PBXGroup;
 			children = (
+				3516F21B262F3EC300BF72D2 /* ShadowViews */,
+				3516F21A262F3EB500BF72D2 /* Resources */,
 				3516F1E7262F392300BF72D2 /* AppDelegate.swift */,
 				3516F1E9262F392300BF72D2 /* SceneDelegate.swift */,
 				3516F1EB262F392300BF72D2 /* ContentView.swift */,
@@ -134,6 +142,23 @@
 				3516F20B262F392500BF72D2 /* Info.plist */,
 			);
 			path = WorkingWithShadowsUITests;
+			sourceTree = "<group>";
+		};
+		3516F21A262F3EB500BF72D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3516F226262F40E200BF72D2 /* ColorExtension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3516F21B262F3EC300BF72D2 /* ShadowViews */ = {
+			isa = PBXGroup;
+			children = (
+				3516F21C262F3EDD00BF72D2 /* ShadowOverview.swift */,
+				3516F221262F3F1F00BF72D2 /* ShadowExample1.swift */,
+			);
+			path = ShadowViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3516F222262F3F1F00BF72D2 /* ShadowExample1.swift in Sources */,
+				3516F21D262F3EDD00BF72D2 /* ShadowOverview.swift in Sources */,
 				3516F1E8262F392300BF72D2 /* AppDelegate.swift in Sources */,
+				3516F227262F40E200BF72D2 /* ColorExtension.swift in Sources */,
 				3516F1EA262F392300BF72D2 /* SceneDelegate.swift in Sources */,
 				3516F1EC262F392300BF72D2 /* ContentView.swift in Sources */,
 			);
